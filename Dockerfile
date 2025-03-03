@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 # Đặt thư mục làm việc
-WORKDIR /var/www/Web_Netflix
+WORKDIR /var/www/Shoppe
 
 # Sao chép toàn bộ project Laravel vào container
 COPY . .
