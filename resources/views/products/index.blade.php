@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product List - Shopee Style</title>
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
 </head>
 <body>
 <header class="header">
@@ -67,7 +67,7 @@
         <div class="product-cards">
             @foreach ($products as $product)
                 <div class="product-card">
-                    <img src="{{ asset('images/'.$product->image) }}" alt="{{ $product->name }}">
+                    <img src="{{ secure_asset('images/'.$product->image) }}" alt="{{ $product->name }}">
                     <h3>{{ $product->name }}</h3>
                     <p class="price">${{ $product->price }}</p>
 
