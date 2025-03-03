@@ -76,6 +76,9 @@ php artisan serve
 - **Database**: MySQL
 - **Frontend**: Blade template engine (có thể nâng cấp lên Vue.js hoặc React)
 
+## Link web public
+https://shopee-rzms.onrender.com/
+
 ## Tác giả
 Hà Nam Khánh - 22010149
 
