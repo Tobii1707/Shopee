@@ -109,6 +109,7 @@ https://youtu.be/9wbEgpwt5FE?si=14OEFDssp4zqnflR
 
 ## Link web public
 https://shopee-rzms.onrender.com/ 
-(link render là free nên load trang hơi lâu ạ.)
+(link render là free nên load trang hơi lâu ạ. 
+Nếu có phần ghi " Thông tin bạn sắp gửi không an toàn " hãy ấn vào nút VẪN GỬI).
 ## Tác giả
 Hà Nam Khánh - 22010149
