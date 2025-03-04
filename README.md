@@ -79,6 +79,9 @@ php artisan serve
 ## Link web public
 https://shopee-rzms.onrender.com/
 
+## Link youtube 
+https://youtu.be/9wbEgpwt5FE?si=14OEFDssp4zqnflR
+
 ## Tác giả
 Hà Nam Khánh - 22010149
 
