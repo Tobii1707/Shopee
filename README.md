@@ -76,14 +76,39 @@ php artisan serve
 - **Database**: MySQL
 - **Frontend**: Blade template engine (có thể nâng cấp lên Vue.js hoặc React)
 
-## Link web public
-https://shopee-rzms.onrender.com/
+## Triển khai hệ thống web online trên Render
 
-## Link youtube 
+### Render - Nền tảng triển khai web:
+- Render là một nền tảng PaaS (Platform as a Service) giúp triển khai ứng dụng web một cách dễ dàng. So với các nền tảng khác như Heroku, Render cung cấp hosting miễn phí cho web services, databases và có hỗ trợ tích hợp CI/CD.
+- Mặc dù vậy, Render lại không hỗ trợ trực tiếp PHP, vì vậy chúng ta sẽ phải cài đặt các môi trường cần thiết cho PHP thông qua Docker. Việc sử dụng Dockerfile là một cách tốt nhất để Render có thể hiểu và cài đặt môi trường như vendor, artisan, blade, ...
+
+### Lợi ích khi sử dụng Render:
+- Triển khai đơn giản: Chỉ cần push code lên GitHub, Render tự động build và deploy.
+- Hỗ trợ nhiều công nghệ: PHP, Node.js, Python, Docker, PostgreSQL, MySQL, v.v.
+- Miễn phí với tài khoản cá nhân: Render cho phép deploy miễn phí với hạn mức nhất định.
+
+### Cách triển khai Laravel trên Render:
+1. Push mã nguồn lên GitHub.
+2. Tạo một dịch vụ web mới trên Render, chọn framework PHP.
+3. Cấu hình các biến môi trường (.env) như database, API keys.
+4. Kết nối với database (MySQL trên Freesqldatabase hoặc PostgreSQL trên Render).
+5. Render tự động build và chạy ứng dụng.
+
+## Công cụ lưu trữ database online - Freesqldatabase:
+- Freesqldatabase là một dịch vụ MySQL hosting miễn phí giúp lưu trữ dữ liệu mà không cần phải tự cấu hình server. Điều này rất tiện lợi khi triển khai ứng dụng trên các nền tảng như Render.
+- Sau khi đăng ký thành công, bạn sẽ nhận được các thông tin sau:
+  - Hostname: (ví dụ: sql12.freesqldatabase.com)
+  - Database name: (ví dụ: sql12765653)
+  - Username: (ví dụ: sql12765653)
+  - Password: (được cấp khi đăng ký)
+  - Port: 3306 (mặc định của MySQL)
+- Các thông tin trên sẽ được dùng để chỉnh sửa các biến môi trường liên quan đến cơ sở dữ liệu của project. Khi kết nối thành công, trang web của chúng ta có thể hoạt động online một cách trơn tru và hiệu quả nhất.
+
+## Link youtube
 https://youtu.be/9wbEgpwt5FE?si=14OEFDssp4zqnflR
+
+## Link web public
+https://shopee-rzms.onrender.com/ 
 
 ## Tác giả
 Hà Nam Khánh - 22010149
-
-
-
