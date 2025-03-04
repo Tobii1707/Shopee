@@ -105,7 +105,7 @@ php artisan serve
 - Các thông tin trên sẽ được dùng để chỉnh sửa các biến môi trường liên quan đến cơ sở dữ liệu của project. Khi kết nối thành công, trang web của chúng ta có thể hoạt động online một cách trơn tru và hiệu quả nhất.
 
 ## Link youtube
-https://youtu.be/9wbEgpwt5FE?si=14OEFDssp4zqnflR
+https://youtu.be/cVQ9B1sKMvg?feature=shared
 
 ## Link web public
 https://shopee-rzms.onrender.com/ 
